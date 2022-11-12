@@ -5,11 +5,11 @@ int main()
 {
     clescr();
     int i;
-    textcolor(red);
-    textbackground(white);
+    textcolor(RED);
+    textbackground(WHITE);
     for(i=1; i<120; i++)
     {
-        peintf("I LOVE YOU \3");
+        cprintf("I LOVE YOU \3");
         daley(200);
         {
             getch();
